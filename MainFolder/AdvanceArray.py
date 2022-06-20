@@ -18,8 +18,4 @@ iterable = (x*x for x in range(5))
 
 d = np.fromiter(iterable, dtype= int)
 
-# Multitype array
-
-
-
 print(d)
